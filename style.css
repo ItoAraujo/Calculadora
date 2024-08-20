@@ -1,0 +1,84 @@
+*{
+  margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  width: 100vw;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  background-image: url(.//astronomia-do-ceu-noturno-galactico-e-ciencia-combinaram-ia-generativa.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+
+}
+
+
+
+div{
+  background: linear-gradient(135deg, rgba(255, 255 0.1), rgba(255, 255, 255, 0)) ;
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  border: 1px solid rgba(255, 255,255, 0.18);
+  box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+  width: 375px;
+  height: 568px;
+  border-radius: 35px;
+  padding: 20px;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(7, 1fr);
+ 
+}
+
+
+input{
+ font-size: 48px;
+ background-color: #3f6fb800;
+ border: none;
+ outline: none;
+ text-align: right;
+ padding-top: 50px;
+ color: white;
+ grid-row: 1/3;
+ grid-column: 1/5;
+}
+
+button{
+font-size: 24px;
+border: none;
+margin: 7px;
+border-radius: 10px;
+cursor: pointer;
+color: white;
+}
+
+button:hover{
+  opacity: 0.7;
+}
+.black-button{
+  background: #303136;
+}
+
+.blue-button{
+  background: #005DB2;
+}
+
+.equal{
+  background: #1991ff;
+  grid-row: 6/8;
+  grid-column: 4/5;
+
+}
+
+.gray-button{
+  background: #616161;
+}
+
+.zero{
+  grid-column: 1/3;
+}
